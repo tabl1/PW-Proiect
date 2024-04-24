@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+    <head>
+    </head>
+    <body>
+        <h1 class="head">Înregistrează</h1>
+        <form id="formular" action="/api/utilizatori" method="POST">
+            <article>
+            <fieldset>
+                <legend>Informații generale</legend>
+                <label for="username">Nume utilizator:</label>
+                <input type="text" id="username" name="username"><br><br>
+                
+                <label for="password">Parola:</label>
+                <input type="password" id="password" name="password"><br><br>
+                
+                <label for="nume">Nume:</label>
+                <input type="text" id="nume" name="nume"><br><br>
+                
+                <label for="prenume">Prenume:</label>
+                <input type="text" id="prenume" name="prenume"><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                
+                <label for="telefon">Telefon:</label>
+                <input type="tel" id="telefon" name="telefon"><br>
+            </fieldset>
+            </article>
+            <br>
+            <article>
+            <fieldset>
+                <legend>Informații personale</legend>
+                <label for="sex">Sexul:</label>
+                <select id="sex" name="sex">
+                    <option value="masculin">Masculin</option>
+                    <option value="feminin">Feminin</option>
+                </select><br><br>
+                
+                <label for="joc">Joc preferat:</label>
+                <input list="listaJocuri" id="joc" name="jocuri">
+
+                <datalist id="listaJocuri">
+                    <option value="The Elder Scrolls"></option>
+                    <option value="Doom"></option>
+                    <option value="Fallout"></option>
+                    <option value="Starfield"></option>
+                </datalist><br><br>
+                
+                <label for="culoare">Culoarea preferată:</label>
+                <input type="color" id="culoare" name="culoare"><br><br>
+                
+                <label for="data_nastere">Data nașterii:</label>
+                <input type="date" id="data_nastere" name="data_nastere"><br><br>
+                
+                <label for="ora_nastere">Ora nașterii:</label>
+                <input type="time" id="ora_nastere" name="ora_nastere"><br><br>
+                
+                <label for="varsta">Vârsta:</label>
+                <input type="range" id="varsta" name="varsta" min="18" max="100"><br><br>
+                
+                <label for="pagina_personala">Adresa paginii personale:</label>
+                <input type="url" id="pagina_personala" name="pagina_personala"><br><br>
+                
+                <label for="descriere">Descriere:</label><br>
+                <textarea id="descriere" name="descriere" rows="4" cols="50"></textarea><br>
+            </fieldset>
+            
+            <input type="submit" value="Înregistrează" id="btnSubmit">
+        </article>
+        </form>
+
+        <hr>
+        <p>© 2024. Ciosnar Dragoș Alexandru / Bethesda Games Studios</p>
+    </body>
+</html>

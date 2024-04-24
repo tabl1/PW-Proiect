@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body onload="initialize()" onbeforeunload="stopInterval()">
+    <aside>
+        <a href="#section1">Secțiunea 1</a>
+        <a href="#section2">Secțiunea 2</a>
+        <a href="#section3">Secțiunea 3</a>
+    </aside>
+    <article>
+        <section id="section1">
+            <h1>Secțiunea 1</h1>
+            <article>
+                <p id="p1"></p>
+                <p id="p2"></p>
+                <p id="p3"></p>
+                <p id="p4"></p>
+                <p id="p5"></p>
+                <p id="p6"></p>
+            </article>
+        </section>
+    </article>
+    <br>
+    <article>
+        <section id="section2">
+            <h1>Secțiunea 2</h1>
+            <article>
+                <canvas id="myCanvas" width="640" height="260" style="border:1px solid #000;"></canvas>
+                <br>
+                <label for="contur">Culoare contur:</label>
+                <input type="color" id="contur" value="#000000">
+                <label for="umplere">Culoare umplere:</label>
+                <input type="color" id="umplere" value="#FFFFFF">
+            </article>
+        </section>
+    </article>
+    <br>
+    <article>
+        <section id="section3">
+            <h1>Secțiunea 3</h1>
+            <label for="rowPosition">Poziția liniei:</label>
+            <input type="text" id="rowPosition">
+            <label for="columnPosition">Poziția coloanei:</label>
+            <input type="text" id="columnPosition">
+            <label for="colorPicker">Culoare de fundal:</label>
+            <input type="color" id="colorPicker" value="#1ed89a">
+            <button onclick="insertRow()">Inserează Linie</button>
+            <button onclick="insertColumn()">Inserează Coloană</button>
+            <br><br>
+            <table id="myTable">
+                <tr>
+                    <td>Linie 1, Coloana 1</td>
+                    <td>Linie 1, Coloana 2</td>
+                    <td>Linie 1, Coloana 3</td>
+                </tr>
+                <tr>
+                    <td>Linie 2, Coloana 1</td>
+                    <td>Linie 2, Coloana 2</td>
+                    <td>Linie 2, Coloana 3</td>
+                </tr>
+                <tr>
+                    <td>Linie 3, Coloana 1</td>
+                    <td>Linie 3, Coloana 2</td>
+                    <td>Linie 3, Coloana 3</td>
+                </tr>
+            </table>
+        </section>
+    </article>
+    <hr>
+    <p>© 2024. Ciosnar Dragoș Alexandru / Bethesda Games Studios</p>
+</body>
+</html>

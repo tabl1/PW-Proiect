@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Porumbel</strada>
+            <numar>7</numar>
+            <localitate>Iasi</localitate>
+            <judet>Iasi</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <educatie>facultate</educatie>
+        <aptitudini>C++</aptitudini>
+        <experienta>
+            <companie>Bitdefender</companie>
+        </experienta>
+    </persoana>
+    <persoana id="2">
+        <nume>Adam</nume>
+        <prenume>Iasmina</prenume>
+        <varsta>21</varsta>
+        <adresa>
+            <strada>Primaverii</strada>
+            <numar>14</numar>
+            <localitate>Vaslui</localitate>
+            <judet>Vaslui</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <educatie>liceu</educatie>
+        <aptitudini>innot</aptitudini>
+        <experienta>
+            <companie>Amazon</companie>
+        </experienta>
+    </persoana>
+    <persoana id="3">
+        <nume>Ciosnar</nume>
+        <prenume>Dragos</prenume>
+        <varsta>22</varsta>
+        <adresa>
+            <strada>Halauceanu</strada>
+            <numar>1</numar>
+            <localitate>Vama</localitate>
+            <judet>Suceava</judet>
+            <tara>Romania</tara>
+        </adresa>
+        <educatie>facultate</educatie>
+        <aptitudini>C#</aptitudini>
+        <experienta>
+            <companie>Centric</companie>
+        </experienta>
+    </persoana>
+</persoane>
